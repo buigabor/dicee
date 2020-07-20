@@ -7,11 +7,10 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
-  background-color: #393E46;
+  background-color: #393e46;
 }
 
 h1 {
@@ -19,12 +18,12 @@ h1 {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: #4ecca3;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
+  color: #4ecca3;
   font-family: 'Indie Flower', cursive;
 }
 
@@ -34,12 +33,39 @@ img {
 
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: #eeeeee;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
 }
 
-.fas{
+.fas {
   color: red;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+#roll-btn {
+  background-color: #44c767;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+#roll-btn:hover {
+  background-color: #5cbf2a;
+}
+#roll-btn:active {
+  position: relative;
+  top: 1px;
 }
